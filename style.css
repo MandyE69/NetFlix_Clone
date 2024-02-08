@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: netflixFont;
+    src: url(bebasneue.otf);
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    display: grid;
+    font-family: netflixFont;
+    background-color: black;
+}
+.nav{
+    
+    padding: 2% 10% 2% 10%;
+    margin: 0%;
+    color: #e50914;
+    font-weight: bolder;
+    font-size: xxx-large;
+   
+    
+}
+.signInbutton{
+    margin-top: 5px;
+    margin-right: 5px;
+    float: right;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    
+}
+.cont{
+        line-height: 0.5;
+
+        font-size: 16px;
+        margin-top: 200px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        padding: 0%;
+        color: white;
+        text-align: center;
+        font-family: rockwell;
+}   
+
+.search{
+    text-decoration: none;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 19px 39px;
+    display: inline-block;
+    margin: 2px 2px 2px 2px;
+}
+
+
+.bimg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.75), 
+          rgba(66, 2, 2, 0.75)
+        ),
+        /* bottom, image */
+        url("bgimg.png");
+}
+input{
+    border-radius: 4px;
+    font-size: 17px;
+    height: 55px;
+    width: 25%;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(
+        rgba(22, 22, 22, 0.512),
+        rgba(28, 28, 28, 0.523)
+      );
+    border-style:double;
+}
+
+.search:hover{
+    background-color: #c11119;
+}
+
+.signInbutton:hover{
+    background-color: #c11119;
+}
+
+hr{
+    border-style: double;
+}
+
+  
