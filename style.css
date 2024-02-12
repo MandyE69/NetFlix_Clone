@@ -78,6 +78,7 @@ body{
         url("bgimg.png");
 }
 input{
+    padding: 10px;
     border-radius: 4px;
     font-size: 17px;
     height: 55px;
